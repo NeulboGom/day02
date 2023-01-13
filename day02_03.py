@@ -1,18 +1,19 @@
 '''
-#Chapter 3: Number
-print(divmod(9,5))
-print(type(divmod(9,5)))  #몫과 나머지를 동시에 얻는 방법
-#print(type(1,2))
-test=1,2 #packing
-print(type(test))
-print(test[1])
-a,b=test #unpacking
-print(a)
-print(b)
+# 진법
+#Binary number=0b10011010
+#Hex number=0x9A
+#Octal number=0o232
+print(number)
+
+bin(): Binary로 변환
+oct(): Octal로 변환
+hex(): Hex로 변환
 '''
 
+chr(65)  #charater 함수 // 아스키코드 넘버에 대응하는 문자 출력
+ord('A')  #ordinal value 함수 // 아스키코드에 대항하는 아스키코드 넘버 출력
 
-# 진법
-print(0b1010)
+print(ord(" "))
+print(hex(ord(" ")))
 
-
+#American Standard Code for Information Interchange = ASCII
